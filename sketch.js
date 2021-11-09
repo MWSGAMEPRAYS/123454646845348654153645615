@@ -74,7 +74,7 @@ fada.velocityX = 2;
     //que esta no projeto
     
     if(star.y > 470 && starBody.position.y > 470){
-        Matter.body.setStatic(starBody,true); 
+        Matter.Body.setStatic(starBody,true); 
     }
 
     drawSprites();
